@@ -114,6 +114,7 @@ def run_test_problem1b():
     problem1b(p, window, 200, 100, 'black')
     window.close_on_mouse_click()
 
+    # A third test on a different window.
     title = 'Test 3 of problem1b'
     window = rg.RoseWindow(300, 200, title)
 
@@ -134,7 +135,8 @@ def problem1b(point, win, width, height, color):
       -- A string suitable for a color in RoseGraphics.
     What goes out:  Nothing (i.e., None).
     Side effects:
-      Draws an rg.Ellipse for which:
+      Draws the given rg.Point on the given rg.RoseWindow.
+      Draws an rg.Ellipse on the given rg.RoseWindow for which:
         -- The topmost point of the rg.Ellipse is the given rg.Point.
         -- The width of the rg.Ellipse is the given width.
         -- The height of the rg.Ellipse is the given height.
