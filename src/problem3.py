@@ -28,7 +28,7 @@ def run_test_problem3():
     problem3(rg.Point(10, 20), 200, 25, window)
     window.close_on_mouse_click()
 
-    # TWO tests on ONE window.
+    # ThREE tests on ONE window.
     title = 'Tests 2, 3 and 4 of problem3'
     window = rg.RoseWindow(450, 250, title)
 
@@ -92,14 +92,15 @@ def problem3(point, length, delta, window):
     # TODO (continued):  IMPORTANT: Use this ITERATIVE ENHANCEMENT PLAN:
     # TODO (continued):    1. Make the sole VERTICAL line appear,
     # TODO (continued):         with thickness 3.
-    # TODO (continued):    2. Make the FIRST horizontal line appear.
+    # TODO (continued):    2. Make the FIRST horizontal line appear
+    # TODO (continued):         with thickness 3.
     # TODO (continued):    3. Make MORE horizontal lines appear,
     # TODO (continued):         each delta below the previous one.
     # TODO (continued):    4. Make each successive horizontal line
     # TODO (continued):         20 pixels longer than the previous one.
-    # TODO (continued):    5. Make the right NUMBER of horizontal lines.
-    # TODO (continued):    6. Make the horizontal lines each have thickness 3
-    # TODO (continued):         and colors per the specified pattern.
+    # TODO (continued):    5. Make the correct NUMBER of horizontal lines.
+    # TODO (continued):    6. Make the horizontal lines each have colors
+    # TODO (continued):         per the specified pattern.
     #          Tests have been written for you (above).
     # --------------------------------------------------------------------------
 
