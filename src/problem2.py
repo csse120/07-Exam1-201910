@@ -24,7 +24,7 @@ def problem2a_testing():
     #     This problem TESTS the    sum_of_digits_of_sum_of_factors    function
     #     that is defined below.  Include at least **   4   ** tests.
     #     Use the usual format:
-    #       Test XXX:
+    #       # Test XXX:
     #       expected = XXX
     #       actual = XXX
     #       print()
