@@ -137,7 +137,7 @@ def problem1b(point, win, width, height, color):
       Draws an rg.Ellipse for which:
         -- The topmost point of the rg.Ellipse is the given rg.Point.
         -- The width of the rg.Ellipse is the given width.
-        -- The height of the rg.Ellipse is the given width.
+        -- The height of the rg.Ellipse is the given height.
         -- The fill color of the rg.Ellipse is the given color.
       Must render but   ** NOT close **   the window.
 
